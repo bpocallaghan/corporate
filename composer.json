@@ -1,0 +1,35 @@
+{
+    "name": "bpocallaghan/corporate",
+    "description": "Add annual reports, tenders and vacancies to your laravel admin project - https://github.com/bpocallaghan/laravel-admin-starter",
+    "keywords": [
+        "laravel",
+        "admin",
+        "cms",
+        "corporate",
+        "annual reports",
+        "tenders",
+        "vacancies"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben-Piet O'Callaghan",
+            "email": "bpocallaghan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bpocallaghan\\Corporate\\": "app/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bpocallaghan\\Corporate\\CorporateServiceProvider"
+            ]
+        }
+    }
+}
